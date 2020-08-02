@@ -28,7 +28,6 @@ app.set('view engine','ejs');
 
 
 
-
 // middlewares
 app.use(body_parser.json());
 app.use(express.urlencoded({extended:false}));
